@@ -226,7 +226,7 @@ header {
 
 /* The following code will only run if your browser supports CSS grid.
 Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. */
-/* @supports (display: grid) {
+@supports (display: grid) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -238,7 +238,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     width: auto;
     margin: 0;
   }
-} */
+}
 
 
 
