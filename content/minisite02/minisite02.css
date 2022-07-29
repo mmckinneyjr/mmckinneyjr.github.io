@@ -1,0 +1,138 @@
+@font-face {
+	font-family: norwester;
+	src: url(content/norwester.otf);
+}
+
+@font-face {
+	font-family: fredericka;
+	src: url(content/fredericka-the-great.regular.ttf);
+}
+
+@font-face {
+	font-family: oswald;
+	src: url(content/Net-Oswald-Medium.ttf);
+}
+
+
+
+body{
+  /* background-image: url("content/background.png"); */
+  /* background-repeat: repeat; */
+  background-color: #E8E8E8;
+  background-size: 1200px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  margin: 0px;
+  padding: 0px
+}
+
+header{
+  height: 60px;
+  background-color: #231F20;
+  padding: 0px 105px 0px 0px;
+  border-bottom: 2px solid #707070;
+
+}
+
+header li {
+  display: inline;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 25px 0px 0px 35px;
+  color: #D6D6D6;
+  font-family: norwester, Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+.logo{
+  position: absolute;
+
+  margin: 15px 0px 0px 145px;
+  z-index: 2000;
+  width: 130px;
+}
+
+.logo-back{
+  margin: 0px 0px 0px 80px;
+  padding: 20px 0px 0px 0px;
+  position: absolute;
+  height: 90px;
+  width: 250px;
+  /* background-color: #231F20; */
+  background-color: #231F20;
+  /* z-index: -898; */
+  border: 2px solid #707070;
+  border-radius: 90% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+
+.header-bar{
+  position: absolute;
+  margin: -10px 0px 0px 80px;
+  background-color: #231F20;
+height: 70px;
+width: 260px;
+z-index: 1000;
+}
+
+
+.banner-background{
+  position: absolute;
+  margin: -70px 0px 0px 0px;
+  z-index: -999;
+  width: 100%;
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.6));
+}
+
+.background-text{
+  margin: 280px 0px 0px 200px;
+  position: absolute;
+  z-index: 100;
+  color: white;
+  font-size: 35px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.preview-container{
+  position: fixed ;
+  width: 100% ;
+  display: inline-block;
+  margin: 45% 0px 0px 0px;
+  position: relative;
+
+  text-align: center;
+  
+  height: 300px;
+
+}
+.preview-image{
+  margin: 0px 10px 0px 10px;
+  border-radius: 20px;
+  position: relative;
+  width:25%;
+  height:100%;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  background-color: #E8E8E8;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+  border:solid 1px darkgray;
+}
+
+  .preview-image img{
+    vertical-align: middle;
+    width:80%;
+    height:80%;
+    object-fit:contain;
+
+  }
