@@ -16,8 +16,6 @@
 
 
 body{
-  /* background-image: url("content/background.png"); */
-  /* background-repeat: repeat; */
   background-color: #E8E8E8;
   background-size: 1200px;
   image-rendering: -moz-crisp-edges;
@@ -26,13 +24,13 @@ body{
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
   margin: 0px;
-  padding: 0px
-}
+  padding: 0px;
+  min-width: 825px; }
 
 header{
   height: 60px;
   background-color: #231F20;
-  padding: 0px 105px 0px 0px;
+  padding: 0px 8% 0px 0px;
   border-bottom: 2px solid #707070;
 
 }
@@ -77,42 +75,28 @@ header li {
   position: absolute;
   margin: -10px 0px 0px 80px;
   background-color: #231F20;
-height: 70px;
-width: 260px;
-z-index: 1000;
+  height: 70px;
+  width: 260px;
+  z-index: 1000;
 }
-
-
 .banner-background{
-  position: absolute;
-  margin: -70px 0px 0px 0px;
+  position: relative;
+  margin: 0px 0px 0px 0px;
   z-index: -999;
   width: 100%;
   filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.6));
 }
 
-.background-text{
-  margin: 280px 0px 0px 200px;
-  position: absolute;
-  z-index: 100;
-  color: white;
-  font-size: 35px;
-  font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
 
 
 .preview-container{
   position: fixed ;
   width: 100% ;
   display: inline-block;
-  margin: 45% 0px 0px 0px;
+  margin: 5% 0px 0px 0px;
   position: relative;
-
   text-align: center;
-  
   height: 300px;
-
 }
 .preview-image{
   margin: 0px 10px 0px 10px;
@@ -136,3 +120,116 @@ z-index: 1000;
     object-fit:contain;
 
   }
+
+.orderOptions{
+  padding: 10% 0px 10% 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+footer{
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  padding: 15px 0px 15px 0px;
+  height: 140px;
+  background: rgb(41,39,42);
+  background: linear-gradient(0deg, rgba(41,39,42,1) 0%, rgba(56,60,69,1) 100%);
+  border-top: solid 1px #525252;
+}
+
+.foot-bar{
+  text-align: right;
+  padding: 0px;
+  height: 30px;
+  width: 100%;
+  background: rgb(45,44,49);
+background: linear-gradient(0deg, rgba(45,44,49,1) 0%, rgba(56,60,69,1) 100%);
+border-top: solid 1px #525252;
+color: #b5b5b5;
+font-size:8px ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot-bar-text{
+  padding:10px 70px 10px 0px;
+}
+
+
+.end{
+  padding: 12px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: oswald, Verdana, Geneva, Tahoma, sans-serif;
+  border-right: 1px solid gray;
+  width: 25%;
+  vertical-align: middle;
+  color: white;
+
+}
+
+.signup{
+  padding: 35px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: norwester, Verdana, Geneva, Tahoma, sans-serif;
+  width: 35%;
+  vertical-align: middle;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+
+}
+
+.contact{
+  padding: 35px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: norwester, Verdana, Geneva, Tahoma, sans-serif;
+  width: 20%;
+  vertical-align: middle;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.followus{
+  padding: 35px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: norwester, Verdana, Geneva, Tahoma, sans-serif;
+  width: 20%;
+  vertical-align: middle;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+#sign{
+  border-radius: 5px 0px 0px 5px;
+  height:20px;
+  width: 150px;
+}
+
+.sign-button{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+          border: 2px solid darkgray;
+  border-radius: 5px;
+  background: #ccc;
+  height:26px; 
+  width: 60px;
+  margin: 0px 0px 0px -10px;
+ 
+}
+
+.sign-container{
+  height: 20px;
+}
