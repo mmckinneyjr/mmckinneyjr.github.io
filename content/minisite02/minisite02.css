@@ -25,14 +25,22 @@ body{
   -ms-interpolation-mode: nearest-neighbor;
   margin: 0px;
   padding: 0px;
-  min-width: 825px; }
+  min-width: 800px; 
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    padding: 0px 7px 0px 7px;
+}
 
 header{
   height: 60px;
   background-color: #231F20;
   padding: 0px 8% 0px 0px;
   border-bottom: 2px solid #707070;
-
 }
 
 header li {
@@ -146,11 +154,11 @@ footer{
   height: 30px;
   width: 100%;
   background: rgb(45,44,49);
-background: linear-gradient(0deg, rgba(45,44,49,1) 0%, rgba(56,60,69,1) 100%);
-border-top: solid 1px #525252;
-color: #b5b5b5;
-font-size:8px ;
-font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(0deg, rgba(45,44,49,1) 0%, rgba(56,60,69,1) 100%);
+  border-top: solid 1px #525252;
+  color: #b5b5b5;
+  font-size:8px ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .foot-bar-text{
@@ -194,7 +202,7 @@ font-family: Arial, Helvetica, sans-serif;
   width: 20%;
   vertical-align: middle;
   color: white;
-  font-size: 17px;
+  font-size: 50%;
   letter-spacing: 1px;
 }
 
@@ -232,4 +240,5 @@ font-family: Arial, Helvetica, sans-serif;
 
 .sign-container{
   height: 20px;
+  padding: 5px 0px 0px 0px;
 }
