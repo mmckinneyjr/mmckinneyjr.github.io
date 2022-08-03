@@ -258,9 +258,22 @@ footer{
   width: 45%;
 }
 
-.concept-text{
+.concept-text-header{
   padding:0px 30px 0px 10%;
   font-family: norwester, Arial, Helvetica, sans-serif;
   font-size: 22px;
   color: #585858;
+}
+
+.concept-text{
+  text-align: center;
+  padding:0px 0px 10px 0;
+  font-family: norwester, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #585858;
+}
+
+.mockups{
+  -webkit-filter: drop-shadow(3px 3px 3px  rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 3px 3px  rgba(0, 0, 0, 0.5));
 }
