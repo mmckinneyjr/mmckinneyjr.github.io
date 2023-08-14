@@ -1,355 +1,349 @@
 body {
-	margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 @font-face {
-	font-family: elephant-light;
-	src: url(content/fonts/elephant-light.otf);
+  font-family: elephant-light;
+  src: url(content/fonts/elephant-light.otf);
 }
 
 @font-face {
-	font-family: tahoma-font;
-	src: url(content/fonts/Tahoma-Regular-font.ttf);
+  font-family: tahoma-font;
+  src: url(content/fonts/Tahoma-Regular-font.ttf);
 }
 
 .smallMenu {
-	display: none;
+  display: none;
 }
 
 header {
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 100%);
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	top: 0px;
-	left: 0px;
-	height: 60px;
-	width: 100%;
-	border: 0px;
-	position: fixed;
-	z-index: 99;
-	border-bottom: solid 2px #c03d04;
-	box-shadow: 0px 2px 7px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  border: 0px;
+  position: fixed;
+  z-index: 99;
+  border-bottom: solid 2px #c03d04;
+  box-shadow: 0px 2px 7px;
 }
 
 .logo {
-	content: url(content/images/logo.png);
-	height: 90px;
-	width: 192px;
-	padding: 10px 0px 0px 30px;
+  content: url(content/images/logo.png);
+  height: 90px;
+  width: 192px;
+  padding: 10px 0px 0px 30px;
 }
 
 .menu {
-	border: solid #0C9 0px;
-	position: absolute;
-	width: 700px;
-	height: 45;
-	right: 0px;
-	padding: 0px 30px 0px 0px;
-	margin: -90px 0px 0px 0px;
-	z-index: 50;
+  border: solid #0c9 0px;
+  position: absolute;
+  width: 700px;
+  height: 45;
+  right: 0px;
+  padding: 0px 30px 0px 0px;
+  margin: -90px 0px 0px 0px;
+  z-index: 50;
 }
 
 .menu ul {
-	font-weight: 300;
-	font-size: 12px;
-	list-style: none;
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
-	float: right;
+  font-weight: 300;
+  font-size: 12px;
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  float: right;
 }
 
 .menu ul li {
-	float: left;
-	height: 45px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	list-style: none;
+  float: left;
+  height: 45px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  list-style: none;
 }
 
 .menuButtons {
-	margin: 0px 0px 0px 0px;
-	display: block;
-	padding: 10px 10px 0px 10px;
-	font-family: "elephant-light", sans-serif;
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 13px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+  padding: 10px 10px 0px 10px;
+  font-family: "elephant-light", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
 }
 
 .buttonIcons {
-	display: inline-block;
-	vertical-align: bottom;
-	padding: 0px 5px 0px 0px;
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 0px 5px 0px 0px;
 }
-
 
 /* ################################## Horizontal title bar #################################### */
 .images_title_bar {
-	margin: 100px 0px 0px 0px;
-	padding: 40px 50px 100px 50px;
-	font-family: tahoma, tahoma-font, sans-serif;
-	font-size: 12px;
-	letter-spacing: .05em;
-	color: #ccc;
+  margin: 100px 0px 0px 0px;
+  padding: 40px 50px 100px 50px;
+  font-family: tahoma, tahoma-font, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #ccc;
 }
 
 .images_title_bar_line {
-	display: block;
-	text-align: center;
-	overflow: hidden;
-	white-space: nowrap;
-	font-size: 30px;
-	letter-spacing: .5em;
-	font-weight: bold;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  letter-spacing: 0.5em;
+  font-weight: bold;
 }
 
-.images_title_bar_line>span {
-	position: relative;
-	display: inline-block;
+.images_title_bar_line > span {
+  position: relative;
+  display: inline-block;
 }
 
-.images_title_bar_line>span:before,
-.images_title_bar_line>span:after {
-	content: "";
-	position: absolute;
-	top: 50%;
-	width: 10000px;
-	height: .5px;
-	background: #CCC;
+.images_title_bar_line > span:before,
+.images_title_bar_line > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 10000px;
+  height: 0.5px;
+  background: #ccc;
 }
 
-.images_title_bar_line>span:before {
-	right: 100%;
-	margin-right: 20px;
+.images_title_bar_line > span:before {
+  right: 100%;
+  margin-right: 20px;
 }
 
-.images_title_bar_line>span:after {
-	left: 100%;
-	margin-left: 15px;
+.images_title_bar_line > span:after {
+  left: 100%;
+  margin-left: 15px;
 }
-
 
 /* ################################ Shadow Seperator ###################################### */
 .separator {
-	margin: 60px 0px 0px 0px;
-	background: #fff;
-	height: 10px;
-	width: 100%;
-	padding: 0px 0px 0px 0px;
-	-moz-box-shadow: 0px -4px 7px rgb(102, 102, 102);
-	-webkit-box-shadow: 0px -4px 7px rgb(102, 102, 102);
-	box-shadow: 0px -4px 7px rgb(102, 102, 102);
+  margin: 60px 0px 0px 0px;
+  background: #fff;
+  height: 10px;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  -moz-box-shadow: 0px -4px 7px rgb(102, 102, 102);
+  -webkit-box-shadow: 0px -4px 7px rgb(102, 102, 102);
+  box-shadow: 0px -4px 7px rgb(102, 102, 102);
+  z-index: 1000;
 }
 
 .separator_fixer {
-	height: 10px;
-	margin: -5px 0px -40px 0px;
-	background: #fff;
+  height: 10px;
+  margin: -5px 0px -40px 0px;
+  background: #fff;
+  z-index: 1000;
 }
 
 /* ############################## Gallery Container ########################################## */
 .container {
-	max-width: 920px;
-	margin: 0 auto;
-	padding: 0px 50px 0px 50px;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0px 50px 0px 50px;
 }
 
 .gallery {
-	display: flex;
-	flex-wrap: wrap;
-	margin: -16px -16px;
-	padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px -16px;
+  padding-bottom: 48px;
 }
 
 .gallery-item-place-holder {
-	position: relative;
-	flex: 1 0 282px;
-	margin: 8px;
+  position: relative;
+  flex: 1 0 282px;
+  margin: 8px;
 }
 
 .gallery-item {
-	position: relative;
-	flex: 1 0 282px;
-	margin: 8px;
-	color: #fff;
-	cursor: pointer;
-
+  position: relative;
+  flex: 1 0 282px;
+  margin: 8px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .gallery-item:hover .gallery-item-info,
 .gallery-item:focus .gallery-item-info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .gallery-item-info {
-	display: none;
-
+  display: none;
 }
 
 .gallery-item a {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: bold;
-	font-size: 15px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	letter-spacing: .01em;
-	color: rgba(255, 255, 255, 0.9);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	/* border-top: 5px solid rgba(255, 255, 255, 0.3); */
-	text-decoration: none;
-	padding: 0px 0px 0px 0px;
-	/* border: 1px solid #acacac; */
-
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-top: 5px solid rgba(255, 255, 255, 0.3); */
+  text-decoration: none;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid #acacac;
 }
 
-
-
 h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: normal;
-	font-size: 10px;
-	font-style: italic;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-	letter-spacing: .05em;
-	display: block;
-	padding: 5px 0px 10px 0px;
-	margin: 5px 0px 0px 0px;
-	color: #e5e5e5;
-	/* border-top: 1px solid #e5e5e5; */
-	/* border-bottom: 1px solid #e5e5e5; */
-	opacity: 0.9;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 5px 0px 10px 0px;
+  margin: 5px 0px 0px 0px;
+  color: #e5e5e5;
+  /* border-top: 1px solid #e5e5e5; */
+  /* border-bottom: 1px solid #e5e5e5; */
+  opacity: 0.9;
 }
 
 h2 {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: bold;
-	font-size: 15px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-	letter-spacing: .01em;
-	color: #e5e5e5;
-	display: block;
-	padding: 10px 0px 10px 0px;
-	margin: 0px 0px 0px 0px;
-	border-top: 5px solid #e5e5e5;
-	border-bottom: 1px solid #e5e5e5; 
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+  display: block;
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  border-top: 5px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 
-	width: 100%;
-	opacity: 0.9;
+  width: 100%;
+  opacity: 0.9;
 }
 
-
-
-
 .gallery-item-info li {
-	display: inline-block;
-	text-align: center;
-	padding: 5px 40px 5px 40px;
-	width: 90%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 40px 5px 40px;
+  width: 90%;
 }
 
 .gallery-image {
-	top: 0;
-	width: 100%;
-	height: 100%;
-	/* object-fit: fill; */
-	object-fit: cover;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* object-fit: fill; */
+  object-fit: cover;
 }
 
 .video {
-	margin: 0px;
-	padding: 0px;
-	display: inline-block;
-	height: 100%;
-	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 
 #videoThumbs {
-	overflow: auto;
-	height: 450px;
-	/* width: 174px; */
-	width: 18%;
-	border: 3px solid #666666;
-	padding: 0px;
-	background: #888;
+  overflow: auto;
+  height: 450px;
+  /* width: 174px; */
+  width: 18%;
+  border: 3px solid #666666;
+  padding: 0px;
+  background: #888;
 }
 
 #videoThumbs ul {
-	list-style-type: none;
-	padding: 0px 15px 0px 10px;
-	margin: 5px 0px 5px 0px;
+  list-style-type: none;
+  padding: 0px 15px 0px 10px;
+  margin: 5px 0px 5px 0px;
 }
 
 #videoThumbs ul li {
-	height: 90px;
-	padding: 3px 0px 3px 0px;
+  height: 90px;
+  padding: 3px 0px 3px 0px;
 }
 
 .videoThumb {
-	border: 1px solid #666;
-	float: left;
-	width: 100%;
-	height: 100%;
+  border: 1px solid #666;
+  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 #videoEmbed {
-	background-color: #000;
-	height: 450px;
-	/* width: 800px; */
-	width: 81%;
-	float: left;
-	padding: 0px;
-	margin: 0px;
-	border-top: 3px solid #666666;
-	border-bottom: 3px solid #666666;
-	border-left: 3px solid #666666;
+  background-color: #000;
+  height: 450px;
+  /* width: 800px; */
+  width: 81%;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  border-top: 3px solid #666666;
+  border-bottom: 3px solid #666666;
+  border-left: 3px solid #666666;
 }
 
-.codePage{
-	width:90%;
-	height:90%; 
-	padding:0px 0px 0px 0px;
-	/* background-color: #fef2d0; */
-	border: none;
-	margin: 0px;
+.codePage {
+  width: 90%;
+  height: 90%;
+  padding: 0px 0px 0px 0px;
+  /* background-color: #fef2d0; */
+  border: none;
+  margin: 0px;
 }
-
 
 /* ####################################################################################### */
 /* ##################################### LIGHTBOX ######################################## */
 /* ####################################################################################### */
 
 .lightbox {
-	display: none;
-	text-align: center;
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);
-	text-align: center;
+  display: none;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 .lightbox:target {
-	display: block;
+  display: block;
 }
 
 .lightbox img {
-	max-width: 80%;
-	max-height: 80%;
-	position: absolute;
-	top: 50%;
-	Left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 /* 
 #fade {
@@ -381,105 +375,133 @@ h2 {
   overflow: visible;
 } */
 
-
-
-
-
-
-
-
 /* The following code will only run if your browser supports CSS grid.
 Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. */
 @supports (display: grid) {
-
-	.gallery-item,
-	.gallery {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
-		grid-gap: 15px;
-		width: auto;
-		margin: 0;
-	}
+  .gallery-item,
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    grid-gap: 15px;
+    width: auto;
+    margin: 0;
+  }
 }
-
-
-
 
 /* #################################### Small screen ##################################### */
 /* ####################################################################################### */
 
 @media only screen and (max-width: 1010px) {
+  .menu {
+    display: none;
+  }
 
-	.menu {
-		display: none;
-	}
+  .smallMenu {
+    border: solid #0c9 0px;
+    position: absolute;
+    display: inline-block;
+    height: 45;
+    right: 0px;
+    padding: 0px 10px 0px 0px;
+    margin: -90px 0px 0px 0px;
+    z-index: 50;
+  }
 
-	.smallMenu {
-		border: solid #0C9 0px;
-		position: absolute;
-		display: inline-block;
-		height: 45;
-		right: 0px;
-		padding: 0px 10px 0px 0px;
-		margin: -90px 0px 0px 0px;
-		z-index: 50;
-	}
+  .smallMenu ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+  }
 
-	.smallMenu ul {
-		list-style: none;
-		margin: 0px 0px 0px 0px;
-		padding: 0px;
-		float: right;
-	}
+  .smallMenu ul li {
+    float: left;
+    height: 45px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+  }
 
-	.smallMenu ul li {
-		float: left;
-		height: 45px;
-		padding: 0px 0px 0px 0px;
-		margin: 0px 0px 0px 0px;
-		list-style: none;
-	}
+  #videoEmbed {
+    margin: 0px;
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    float: none;
+    border: 3px solid #666666;
+  }
 
-	#videoEmbed {
-		margin: 0px;
-		background: #000000;
-		height: 100%;
-		width: 100%;
-		float: none;
-		border: 3px solid #666666;
-	}
+  #videoThumbs {
+    margin: 0px;
+    overflow-y: hidden;
+    height: 100%;
+    /* width: 800px; */
+    width: 100%;
+    border-right: 3px solid #666666;
+    border-left: 3px solid #666666;
+    border-bottom: 3px solid #666666;
+    padding: 0px 0px 0px 0px;
+    background: #888;
+  }
 
-	#videoThumbs {
-		margin: 0px;
-		overflow-y: hidden;
-		height: 100%;
-		/* width: 800px; */
-		width: 100%;
-		border-right: 3px solid #666666;
-		border-left: 3px solid #666666;
-		border-bottom: 3px solid #666666;
-		padding: 0px 0px 0px 0px;
-		background: #888;
-	}
+  #videoThumbs ul {
+    padding: 10px 0px 10px 10px;
+    margin: 0px;
+    width: 100%;
+    white-space: nowrap;
+  }
 
-	#videoThumbs ul {
-		padding: 10px 0px 10px 10px;
-		margin: 0px;
-		width: 100%;
-		white-space: nowrap;
-	}
+  #videoThumbs ul li {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    display: inline-block;
+  }
 
-	#videoThumbs ul li {
-		margin: 0px;
-		padding: 0px 10px 0px 0px;
-		display: inline-block;
-	}
+  .videoThumb {
+    margin: 0px;
+    border: 2px solid #666;
+    height: 90px;
+    width: 140px;
+    top: 0px;
+  }
+}
 
-	.videoThumb {
-		margin: 0px;
-		border: 2px solid #666;
-		height: 90px;
-		width: 140px;
-		top: 0px;
-	}
+.home-welcome-container {
+  margin: 0px 0px -60px 0px;
+  padding: 0px;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  z-index: -1000;
+}
+
+.shark-1 {
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  background-image: url("content/images/banner.png");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+}
+
+.shark-3 {
+  margin: 0px;
+  z-index: -5;
+  position: sticky;
+  top: 35%;
+  transform: translateY(-35%);
+
+  text-align: center;
+  font-size: max(3vw, 3em, 3rem);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }
