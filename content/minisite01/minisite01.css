@@ -13,7 +13,10 @@
 	src: url(content/Net-Oswald-Medium.ttf);
 }
 
-
+@font-face {
+  font-family: hobenshaw;
+  src: url(content/Hobenshaw.otf);
+}
 
 
 body{
@@ -37,7 +40,7 @@ body{
 }
 
 .bannerTitle{
-  font-family: fredericka, Arial, Helvetica, sans-serif;
+  font-family: hobenshaw, Arial, Helvetica, sans-serif;
   width: 100%;
   font-size: 45px;
   padding:15px 0px 10px;
